@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CesdeToDo3</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="perfil">
+            <div id="Fecha"></div>
+            <h1>Vienvenidos a mi Aagenda</h1>
+            <span>¡Vamos a Trabajar!</span>
+        </div>
+
+        <div class="agregar-tareas">
+            <input type="text" id="input" placeholder="Agregar tu tarea">
+            <i id="boton-enter" class="fas fa-plus-circle"></i>
+        </div>
+
+        <div class="seccion-tareas">
+            <h3>Estas son mis tareas pendientes</h3>
+            <ul id="lista">
+                <li id="elemento">
+                    <i class="far fa-circle co" data="realizado" id="0"></i>
+                    <p class="text">Lavar la ropa</p>
+                    <i class="fas fa-trash de" data="eliminado" id="0"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
